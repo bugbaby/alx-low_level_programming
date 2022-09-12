@@ -28,16 +28,15 @@ int main(void)
 										putchar(n2);
 										putchar(n3);
 										if (n1 != 55 || n2 != 56 || n3 != 57)
-										{
-															putchar(com);
-															putchar(32);
-														}
-										n3 += 1;
-									}
-						n2 += 1;
-					}
-			n1 += 1;
+										{									putchar(com);
+									     	   putchar(32);
+												}
+	                									n3 += 1;
+			}
+	        	n2 += 1; 			
 		}
+		n1 += 1;
+	}
 	putchar('\n');
 	return (0);
-}}
+}
