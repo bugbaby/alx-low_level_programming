@@ -1,10 +1,10 @@
-nclude <stdio.h>
+#include <stdio.h>
 
 /**
- * main - list all natural numbers multiples of 3 & 5
- *   
- * Return: Always 0.    
- */     
+ *  * main - list all natural numbers multiples of 3 & 5
+ *   *
+ *    * Return: Always 0.
+ *     */
 
 int main(void)
 {
@@ -22,3 +22,4 @@ int main(void)
 					printf("%d\n", sum);
 						return (0);
 }
+
