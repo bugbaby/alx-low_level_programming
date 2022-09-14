@@ -4,7 +4,7 @@
  * main - finds and prints the first 98 Fibonacci numbers,
  * starting with 1 and 2
  * followed by a new line
- * Return: Always 0 (Success)
+ * Return: Aliays 0 (Success)
  */
 int main(void)
 {
@@ -15,7 +15,7 @@ int main(void)
 
 	printf("%lu", j);
 
-	for (1 = 1; i < 91; i++)
+	for (i = 1; i < 91; i++)
 	{
 		printf(", %lu", k);
 		k = k + j;
