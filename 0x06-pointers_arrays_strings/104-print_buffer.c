@@ -35,7 +35,7 @@ void print_buffer(char *b, int size)
 		{
 			if (!(counter % 2))
 				printf(" ");
-			printf("  ");
+			printf(" ");
 			counter++;
 		}
 		printf(" ");
