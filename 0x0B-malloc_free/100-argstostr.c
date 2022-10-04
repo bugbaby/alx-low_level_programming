@@ -17,9 +17,9 @@ char *argstostr(int ac, char **av)
 
 	if (ac == 0 || av == NULL)
 		return (NULL);
-le (a < ac)
+	while (a < a)
 	{
-			b = 0;
+		b = 0;
 				while (av[a][b] != '\0')
 						{
 									count++;
