@@ -7,8 +7,9 @@
  *
  * Return: no return.
  */
-int main(int argc, char *argv[]){
-	{
+int main(int argc, char *argv[])
+{
+	
 		int a, b;
 		int (*operation)(int, int);
 
@@ -37,4 +38,5 @@ int main(int argc, char *argv[]){
 
 		printf("%d\n", operation(a, b));
 		return (0);
-	}
+}
+	
